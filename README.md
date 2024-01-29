@@ -69,7 +69,7 @@ $$ \frac{\delta S}{\delta x}|_{x=\delta} = 0$$
 
 Together:
 
-$$ D\frac{dS}{dx}|_{x=0} = \frac{X}{Y_{X/S}}\frac{\mu_{max} S}{K+S}\delta$$
+$$ D\frac{dS}{dx}(x=0) = \frac{X}{Y_{X/S}} \frac{\mu_{max} S}{K+S} \delta $$
 
 $$ \frac{\delta C_g}{\delta z} = -\alpha\frac{1}{V_0} \frac{X}{Y_{X/S}}\frac{\mu_{max} S}{K+S}\delta $$
 
