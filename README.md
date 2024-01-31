@@ -74,3 +74,19 @@ $$ D\frac{dS}{dx}(x=0) = \frac{X}{Y_{X/S}} \frac{\mu_{max} S}{K+S} \delta $$
 $$ \frac{\delta C_g}{\delta z} = -\alpha\frac{1}{V_0} \frac{X}{Y_{X/S}}\frac{\mu_{max} S}{K+S}\delta $$
 
 $$ \frac{\delta C_g}{\delta z} = -\alpha\frac{1}{V_0} \frac{X}{Y_{X/S}}\frac{\mu_{max} \frac{C_g}{m}}{K+ \frac{C_g}{m}}\delta $$
+
+## Biotrickling Filter Energy Balance
+
+Energy stored in the substrates is balanced by the heat stored by biomass formation and metabolic heat generation.
+
+$$\Delta H_s \Delta S^T = \Delta H_c \Delta X^T + Q_{met}$$
+
+$$\frac{\Delta H_s}{Y_{X/S}} = \Delta H_c + \frac{Q_{met}}{\Delta X^T}$$
+
+$$\frac{\Delta H_s}{Y_{X/S}} = \Delta H_c + \frac{1}{y_H}$$
+
+Where $y_H$ is the amount of biomass produced per unit of heat generated.
+
+To obtain the cooling rate for the bioreactor, the following equation is used:
+
+$$ q_{cool} = \frac{Q_{met}}{\Delta t} = \frac{\mu_{net} X^T}{y_H}$$
